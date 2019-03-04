@@ -22,7 +22,7 @@ module.exports = {
   ],
   comment: {
     disqusShortName: '',
-    utterances: 'zanjs/ttp.me'
+    utterances: 'zanjs/blog.ttp.me'
   },
   configs: {
     countOfInitialPost: 10

@@ -22,12 +22,9 @@ I'm FrontEnd engineer who loves TypeScript and React. I have recently been inter
 
 ## Work Experiences
 
-
 ## Project
 
-
 ## Lectures
-
 
 ## Skills
 
