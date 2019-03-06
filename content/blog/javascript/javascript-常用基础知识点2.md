@@ -37,6 +37,18 @@ xhr.onreadystatechange = function() {
 }
 ```
 
-## 对js原型的理解
+## 对 JavaScript 原型的理解
 
-我们知道在 `es6` 之前，`js` 没有类和继承的概念
+我们知道在 `es6` 之前，`js` 没有类和继承的概念。
+
+原型是`JavaScript` 中一个比较难理解的概念，原型相关的属性也比较多，对象有 `[[prototype]]` 属性，
+函数对象有 `prototype` 属性，原型对象有 `constructor` 属性。
+
+### 认识原型
+
+在 `JavaScript` 中，原型也是一个对象，通过原型可以实现对象的属性继承,
+`JavaScript` 的对象中都包含了一个 `Prototype` 内部属性，这个属性所对应的就是该对象的原型。
+
+`Prototype` 作为对象的内部属性,是不能被直接访问的。
+所以为了方便查看一个对象的原型，`Firefox` 和 `Chrome` 中提供了"__proto__"这个非标准（不是所有浏览器都支持）
+的访问器, `ECMA` 引入了标准对象原型访问器 `Object.getPrototype(object)`）。
