@@ -72,7 +72,7 @@ type User = Name & { age: number  };
 ### interface extends type
 
 ```ts
-type Name = { 
+type Name = {
   name: string; 
 }
 interface User extends Name { 
