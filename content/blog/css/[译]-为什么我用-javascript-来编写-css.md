@@ -1,5 +1,5 @@
 ---
-title: [译] 为什么我用 JavaScript 来编写 CSS
+title: 为什么我用 JavaScript 来编写CSS
 date: 2019-03-13 15:03:33
 category: css
 ---
