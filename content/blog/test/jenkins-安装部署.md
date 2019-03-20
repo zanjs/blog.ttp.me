@@ -24,5 +24,9 @@ category: test
 
 
 
+### 安装 maven 插件
 
+找到 “系统管理“ - “安装插件” ，点击 “可选插件”，找到如下 `maven` 插件的版本
+
+![](./images/maven.png)
 
