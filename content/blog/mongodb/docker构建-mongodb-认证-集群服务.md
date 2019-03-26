@@ -47,9 +47,14 @@ db.createUser({user:"test",pwd:"test",roles:[{role: "read", db: "test"}]})
 db.createUser({user:"test1",pwd:"test",roles:[{role: "readWrite", db: "test"}]})
 ```
 
-
 ### suihua 读写
 
 ```s
 db.createUser({user:"suihua",pwd:"suihua",roles:[{role: "readWrite", db: "suihua"}]})
+```
+
+### yapi 读写
+
+```s
+db.createUser({user:"yapi",pwd:"yapi",roles:[{role: "readWrite", db: "yapi"}]})
 ```
